@@ -1,0 +1,2 @@
+rm -rf MsuLinuxClient
+gcc -o MsuLinuxClient ../../Core/MsuComplainMode.c ../../Core/MsuLeech.c ../../Core/MsuPdu.c ../../Core/MsuSocket.c ../../Core/MsuCRC32.c MsuFileInterface.c MSUPlatformInterface.c MsuAppInterface.c MsuSocketInterface.c MsuApp.c -I . -I ../../Core 
